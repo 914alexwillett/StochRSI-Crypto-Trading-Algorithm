@@ -38,7 +38,7 @@ errors may occur in the trade logic.
 
 Next, run the create_database.py script to setup the Sqlite3 trade_database.
 
-After that, delete the placeholder contents in each of the txt log files
+After that, delete the placeholder contents in each of the txt log files.
 
 Finally, the algorithm is good to go, so run the trade_bot.py script.
 Optionally, set up the scheduled run check using your Operating System's
