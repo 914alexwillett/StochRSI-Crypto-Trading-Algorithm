@@ -1,0 +1,44 @@
+The current pid is 3471922021-02-12 13:00:00 SELL
+
+ {'symbol': 'ETHUSD', 'orderId': 111139064, 'orderListId': -1, 'clientOrderId': 'yn6zqWnIW8nqtq8yLQjtWK', 'transactTime': 1613152800000, 'price': '1838.28', 'origQty': '0.03146', 'executedQty': '0.03146', 'cummulativeQuoteQty': '57.8322888', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'SELL', 'fills': [{'price': '1838.28', 'qty': '0.03146', 'commission': '0.0578322888', 'commissionAsset': 'USD', 'tradeId': 2424209}]}
+
+2021-02-12 23:00:00 SELL
+
+ {'symbol': 'ETHUSD', 'orderId': 111179913, 'orderListId': -1, 'clientOrderId': 'yn6zqWnIW8nqtq8yLQjtWK', 'transactTime': 1613188800000, 'price': '1862.71', 'origQty': '0.03146', 'executedQty': '0.03146', 'cummulativeQuoteQty': '58.60085660000001', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'SELL', 'fills': [{'price': '1862.71', 'qty': '0.03146', 'commission': '0.05860085660000001', 'commissionAsset': 'USD', 'tradeId': 2424209}]}
+
+{'BTC Trading': 36.5, 'BTC Holding': 3.65, 'BTC Cash': 89.31, 'BTC total value': 129.46, 'ETH Trading': 108.9, 'ETH Holding': 10.89, 'ETH Cash': 133.96, 'ETH total value': 253.75}
+==============================================
+
+The current pid is 382908
+2021-02-12 23:32:00 SELL ETHUSD 
+
+ ERROR OCCURED APIError(code=-1111): Precision is over the maximum defined for this asset. 
+
+2021-02-12 23:32:00 SELL
+
+ {'symbol': 'ETHUSD', 'orderId': 111115576, 'orderListId': -1, 'clientOrderId': 'yn6zqWnIW8nqtq8yLQjtWK', 'transactTime': 1613190720000, 'price': '1865.19', 'origQty': '0.05033219850225795', 'executedQty': '0.05033219850225795', 'cummulativeQuoteQty': '93.87911332442651', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'SELL', 'fills': [{'price': '1865.19', 'qty': '0.05033219850225795', 'commission': '0.09387911332442651', 'commissionAsset': 'USD', 'tradeId': 2424209}]}
+
+2021-03-15 01:45:00 BUY
+
+ {'symbol': 'BTCUSD', 'orderId': 275994539, 'orderListId': -1, 'clientOrderId': '5tHYGA15NiO7nEH2gYHk4W', 'transactTime': 1615787100921, 'price': '0.0000', 'origQty': '0.00211000', 'executedQty': '0.00211000', 'cummulativeQuoteQty': '125.2087', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'fills': [{'price': '59340.6600', 'qty': '0.00211000', 'commission': '0.00000211', 'commissionAsset': 'BTC', 'tradeId': 8873410}]}
+
+2021-03-15 11:16:39.885660
+{'BTC Trading': 133.71, 'BTC Holding': 18.14, 'BTC Cash': 125.43, 'BTC total value': 277.28, 'ETH Trading': 246.41, 'ETH Holding': 21.24, 'ETH Cash': 10.6, 'ETH total value': 278.25}
+==============================================
+MISSED TRANSACTION:
+2021-03-15 03:30:00 BUY
+
+ {'symbol': 'BTCUSD', 'orderId': 111164753, 'orderListId': -1, 'clientOrderId': 'yn6zqWnIW8nqtq8yLQjtWK', 'transactTime': 1615793400000, 'price': '58339.16', 'origQty': '0.00107', 'executedQty': '0.00107', 'cummulativeQuoteQty': '62.422901200000005', 'status': 'MISSED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'fills': [{'price': '58339.16', 'qty': '0.00107', 'commission': '1.07e-06', 'commissionAsset': 'BTC', 'tradeId': 2424209}]}
+
+MISSED TRANSACTION:
+2021-03-15 13:45:00 BUY
+
+ {'symbol': 'BTCUSD', 'orderId': 111190698, 'orderListId': -1, 'clientOrderId': 'yn6zqWnIW8nqtq8yLQjtWK', 'transactTime': 1615830300000, 'price': '55875.95', 'origQty': '0.00112', 'executedQty': '0.00112', 'cummulativeQuoteQty': '62.58106399999999', 'status': 'MISSED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'fills': [{'price': '55875.95', 'qty': '0.00112', 'commission': '1.1199999999999999e-06', 'commissionAsset': 'BTC', 'tradeId': 2424209}]}
+
+2021-03-16 08:15:03 BUY
+
+ {'symbol': 'BTCUSD', 'orderId': 277534042, 'orderListId': -1, 'clientOrderId': 'OsfJX1xb04ziiPz03FbAFb', 'transactTime': 1615896903892, 'price': '0.0000', 'origQty': '0.00113000', 'executedQty': '0.00113000', 'cummulativeQuoteQty': '62.4091', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'fills': [{'price': '55229.3000', 'qty': '0.00113000', 'commission': '0.00000113', 'commissionAsset': 'BTC', 'tradeId': 8953493}]}
+
+2021-03-17 10:55:04.001014
+{'BTC Trading': 189.22, 'BTC Holding': 17.11, 'BTC Cash': 63.02, 'BTC total value': 269.35, 'ETH Trading': 237.84, 'ETH Holding': 20.5, 'ETH Cash': 10.6, 'ETH total value': 268.94}
+==============================================
