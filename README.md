@@ -5,12 +5,12 @@ Using 15min BTC and ETH candlestick data streamed from a Binance websocket,
 the system records the close prices into a Sqlite3 database.
 Using price data, the system generates techincal indicators,
 primarily the Stochastic Relative Strength Index, but also the 200 period
-Moving Average and Bollinger Band width. 
+Moving Average and width of each coins' Bollinger Bands. 
 The algorithm trade logic uses those technical indicators to
 decide when to buy and sell Bitcoin and Ethereum at strategically profitable times.
 
 The database will keep track of all trades made in the transaction history table,
-as well as a buy log and sell log that is used in the algorithms trade logic.
+as well as a buy log and sell log that is used in the algorithm's trade logic.
 Trades will also be recorded on a seperate order_message_log.txt file
 as a backup to verify database accuracy.
 
@@ -21,7 +21,7 @@ and if errors occur, such as being unable to automatically rerun the algorithm,
 issues will be written to an error_log.txt file.
 
 If disconnected, upon reconnecting the system will find that last price recorded
-and fill the missing values using historical data provided by Binance's client.
+and fill the missing values using historical data provided by Binance's client API.
 In addition, it will go through the newly added rows and will record
 if any missed trade opportunities occured while the program was not running.
 
